@@ -1,0 +1,140 @@
+@media(max-width : 1146px){
+    .portfolio-section .port-head .port-links h5{
+        margin: 20px 80px;
+    }
+}
+
+
+@media(max-width : 990px){
+    .portfolio-section .port-head .port-links h5{
+        margin: 20px 50px;
+    }
+    .portfolio-section  .port-item .port-text{
+        margin-top: 50px;
+     }
+     .team-section .team-img img{
+        max-width:150px;
+    }
+}
+
+
+@media(max-width : 779px){
+    .header {
+        padding: 5px 0;
+    }
+    .collapse {
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+    .header .navbar-nav {
+        background-color: #000000;
+        border: none;
+    }
+    .dropdown-item:focus {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    .header .navbar #collapsibleNavbar .nav-item .nav-link {
+        padding: 10px 20px 10px;
+        text-align: center;
+    }
+    .header .navbar-light .navbar-toggler {
+        padding: 0;
+        height: 38px;
+        width: 45px;
+    }
+    .header .navbar-light .navbar-toggler:focus {
+        outline: none;
+    }
+    .header .navbar-light .navbar-toggler-icon {
+        background-image: none;
+        height: 2px;
+        width: 24px;
+        position: relative;
+        background: #ffe500;
+    }
+    .header .navbar-light .navbar-toggler-icon::before {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        left: 0;
+        top: -7px;
+        background: #ffe500;
+    }
+    .header .navbar-light .navbar-toggler-icon::after {
+        content: '';
+        position: absolute;
+        height: 1.7px;
+        width: 100%;
+        left: 0;
+        top: 7px;
+        background: #ffe500;
+    }
+    .title h5{
+        letter-spacing: 6px;
+    }
+    .title p{
+        font-size: 10px;
+    line-height: 15px;
+    }
+    .portfolio-section .port-head .port-links h5{
+        margin: 20px 25px;
+    }
+    .team-section .team-box{
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+    }
+    .portfolio-section .port-head .port-logo{
+        display: none;
+    }
+}
+
+@media(max-width : 510px){
+    .navigation input:checked ~ .menu{
+        width: 200px;
+    }
+    .second-section .para p{
+        margin: 30px 5px;
+    }  
+    .team-section .name h5{
+        font-size: 15px;
+    }
+    
+    .team-section  .text p{
+        font-size: 10px;
+    }
+    .testimonial-section{
+        height: 120px;
+    }
+    .testimonial-section .testi-back .testi-content{
+        margin: 10px;
+    }
+    .testimonial-section .testi-back .testi-content p{
+        padding: 25px;
+        font-size: 11px;
+        font-weight: 0;
+    }
+  
+}
+
+@media(max-width : 395px){
+    .portfolio-section .port-head .port-links h5{
+        margin: 20px 5px;
+    }
+    .team-section .team-img img{
+        max-width:140px;
+    }
+    .yellow-section{
+        margin-bottom: 350px;
+    }
+}
+@media(max-width : 325px){
+    .team-section .team-img img{
+        max-width:135px;
+    } 
+    .yellow-section{
+        margin-bottom: 400px;
+    }
+}
